@@ -11,7 +11,7 @@
 // Version       : 0.0.1
 // License       : WTFPL - Do What The Fuck You Want Public License
 //
-// custom QWERTY layout with AltGr symbol layer
+// QWERTY SYM
 //
 
 xkb_keymap {
@@ -39,7 +39,7 @@ xkb_keymap {
     include "inet(evdev)"
     include "level3(ralt_switch)"
 
-    name[group1]= "custom QWERTY layout with AltGr symbol layer";
+    name[group1]= "QWERTY SYM";
     key.type[group1] = "FOUR_LEVEL";
 
     // Digits

@@ -1,6 +1,6 @@
 {
   "name": "us-sym",
-  "description": "custom QWERTY layout with AltGr symbol layer",
+  "description": "QWERTY SYM",
   "geometry": "ergo",
   "keymap": {
     "Digit1": [ "1", "!", "“", "¹" ],

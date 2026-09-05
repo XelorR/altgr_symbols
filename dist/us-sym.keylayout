@@ -9,7 +9,7 @@
   License       : WTFPL - Do What The Fuck You Want Public License
   Reference     : https://developer.apple.com/library/archive/technotes/tn2056/_index.html
 
-  custom QWERTY layout with AltGr symbol layer
+  QWERTY SYM
 
   Logical layer (Apple keycodes)
   ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━━┓
@@ -44,7 +44,7 @@
   ┆ \ ¦ ┃   \ │   * │   : │   / │   # ┃   ' │   | │ , ~ │ . & │ / ? ┃
   ╰╌╌╌╌╌┸─────┴─────┴─────┴─────┴─────┸─────┴─────┴─────┴─────┴─────┚
   -->
-<keyboard group="0" id="0" name="custom QWERTY layout with AltGr symbol layer" maxout="1">
+<keyboard group="0" id="0" name="QWERTY SYM" maxout="1">
   <layouts>
     <layout first="0" last="17" modifiers="commonModifiers" mapSet="ANSI" />
   </layouts>
