@@ -15,7 +15,7 @@ Standard US (qwerty) and RU (йцукен) layouts created via [Kalamine](https:
 ## built layouts for Linux, Mac and Windows
 
 - [dist folder](dist) — all OS except Windows
-- windows pre-compiled viw `wkalemine` binary
+- windows pre-compiled via `wkalemine` binary
   - [us](./us-sym)
   - [ru](./ru-sym)
 
