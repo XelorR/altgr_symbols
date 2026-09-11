@@ -311,7 +311,7 @@
           <text x="12.8" y="43.4" class="level1">1</text>
           <text x="12.8" y="20.6" class="level2">!</text>
           <text x="38.0" y="43.4" class="level3">“</text>
-          <text x="38.0" y="20.6" class="level4">¹</text>
+          <text x="38.0" y="20.6" class="level4">‼</text>
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -322,7 +322,7 @@
           <text x="12.8" y="43.4" class="level1">2</text>
           <text x="12.8" y="20.6" class="level2">@</text>
           <text x="38.0" y="43.4" class="level3">”</text>
-          <text x="38.0" y="20.6" class="level4">²</text>
+          <text x="38.0" y="20.6" class="level4">¥</text>
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -333,7 +333,7 @@
           <text x="12.8" y="43.4" class="level1">3</text>
           <text x="12.8" y="20.6" class="level2">#</text>
           <text x="38.0" y="43.4" class="level3">№</text>
-          <text x="38.0" y="20.6" class="level4">³</text>
+          <text x="38.0" y="20.6" class="level4">∑</text>
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -344,7 +344,7 @@
           <text x="12.8" y="43.4" class="level1">4</text>
           <text x="12.8" y="20.6" class="level2">$</text>
           <text x="38.0" y="43.4" class="level3">₽</text>
-          <text x="38.0" y="20.6" class="level4">⁴</text>
+          <text x="38.0" y="20.6" class="level4">₹</text>
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -355,7 +355,7 @@
           <text x="12.8" y="43.4" class="level1">5</text>
           <text x="12.8" y="20.6" class="level2">%</text>
           <text x="38.0" y="43.4" class="level3">˚</text>
-          <text x="38.0" y="20.6" class="level4">⁵</text>
+          <text x="38.0" y="20.6" class="level4">‰</text>
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -368,7 +368,7 @@
           <text x="12.8" y="43.4" class="level1">6</text>
           <text x="12.8" y="20.6" class="level2">^</text>
           <text x="38.0" y="43.4" class="level3 deadKey">^</text>
-          <text x="38.0" y="20.6" class="level4" />
+          <text x="38.0" y="20.6" class="level4">√</text>
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -378,8 +378,8 @@
         <g class="key" text-anchor="middle">
           <text x="12.8" y="43.4" class="level1">7</text>
           <text x="12.8" y="20.6" class="level2">&amp;</text>
-          <text x="38.0" y="43.4" class="level3">‰</text>
-          <text x="38.0" y="20.6" class="level4" />
+          <text x="38.0" y="43.4" class="level3">⊞</text>
+          <text x="38.0" y="20.6" class="level4">✉</text>
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
