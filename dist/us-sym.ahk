@@ -318,13 +318,13 @@ SendKey(base, deadkeymap) {
 <^>!+SC10::SendKey("U+00a7", {}) ; §
 
  <^>!SC11::SendKey("U+003c", {"*~": "U+2272"}) ; <
-<^>!+SC11::SendKey("U+00ab", {}) ; «
+<^>!+SC11::SendKey("U+2264", {}) ; ≤
 
  <^>!SC12::SendKey("U+003d", {"*^": "U+207c", "*~": "U+2243"}) ; =
 <^>!+SC12::SendKey("U+2248", {}) ; ≈
 
  <^>!SC13::SendKey("U+003e", {"*~": "U+2273"}) ; >
-<^>!+SC13::SendKey("U+00bb", {}) ; »
+<^>!+SC13::SendKey("U+2265", {}) ; ≥
 
  <^>!SC14::SendKey("U+0024", {}) ; $
 <^>!+SC14::SendKey("U+20bd", {}) ; ₽
@@ -332,13 +332,13 @@ SendKey(base, deadkeymap) {
  <^>!SC15::SendKey("U+005e", {}) ; ^
 
  <^>!SC16::SendKey("U+005b", {}) ; [
-<^>!+SC16::SendKey("U+2264", {}) ; ≤
+<^>!+SC16::SendKey("U+00ab", {}) ; «
 
  <^>!SC17::SendKey("U+005f", {}) ; _
 <^>!+SC17::SendKey("U+2261", {}) ; ≡
 
  <^>!SC18::SendKey("U+005d", {}) ; ]
-<^>!+SC18::SendKey("U+2265", {}) ; ≥
+<^>!+SC18::SendKey("U+00bb", {}) ; »
 
  <^>!SC19::SendKey("U+0060", {}) ; `
 
@@ -376,6 +376,7 @@ SendKey(base, deadkeymap) {
 ;  Letters, third row
 
  <^>!SC2c::SendKey("U+005c", {}) ; \
+<^>!+SC2c::SendKey("U+229e", {}) ; ⊞
 
  <^>!SC2d::SendKey("U+002a", {}) ; *
 <^>!+SC2d::SendKey("U+00d7", {}) ; ×

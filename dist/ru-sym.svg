@@ -488,7 +488,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">Ц</text>
           <text x="38.0" y="43.4" class="level3">&lt;</text>
-          <text x="38.0" y="20.6" class="level4">«</text>
+          <text x="38.0" y="20.6" class="level4" />
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -510,7 +510,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">К</text>
           <text x="38.0" y="43.4" class="level3">&gt;</text>
-          <text x="38.0" y="20.6" class="level4">»</text>
+          <text x="38.0" y="20.6" class="level4" />
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -545,7 +545,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">Г</text>
           <text x="38.0" y="43.4" class="level3">[</text>
-          <text x="38.0" y="20.6" class="level4">≤</text>
+          <text x="38.0" y="20.6" class="level4">«</text>
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -567,7 +567,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">Щ</text>
           <text x="38.0" y="43.4" class="level3">]</text>
-          <text x="38.0" y="20.6" class="level4">≥</text>
+          <text x="38.0" y="20.6" class="level4">»</text>
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -790,7 +790,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">Я</text>
           <text x="38.0" y="43.4" class="level3">\</text>
-          <text x="38.0" y="20.6" class="level4" />
+          <text x="38.0" y="20.6" class="level4">⊞</text>
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
