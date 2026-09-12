@@ -300,7 +300,7 @@ SendKey(base, deadkeymap) {
  <^>!SC07::SendKey("*^", {"*^": "^"})
 <^>!+SC07::SendKey("U+221a", {}) ; √
 
- <^>!SC08::SendKey("U+229e", {}) ; ⊞
+ <^>!SC08::SendKey("U+00bf", {}) ; ¿
 <^>!+SC08::SendKey("U+2709", {}) ; ✉
 
  <^>!SC09::SendKey("U+2022", {}) ; •
