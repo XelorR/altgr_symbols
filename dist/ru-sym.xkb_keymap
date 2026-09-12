@@ -29,7 +29,7 @@ xkb_keymap {
   //       ┃ Ф ⌘ │ Ы ⌥ │ В ⌃ │ А ⇧ │ П ± ┃ Р ← │ О ↓ │ Л ↑ │ Д → │ Ж   ┃ Э*¨ ┆ /   ┆
   //       ┃   " │   ( │   - │   ) │   + ┃   % │   { │   ; │   } │   ! ┃  *´ ┆ \ ¦ ┆
   // ╭╌╌╌╌╌╂─────┼─────┼─────┼─────┼─────╂─────┼─────┼─────┼─────┼─────╂╌╌╌╌╌┴╌╌╌╌╌╯
-  // ┆ |   ┃ Я ⊞ │ Ч × │ С ÷ │ М   │ И ฿ ┃ Т   │ Ь   │ Б   │ Ю   │ ,   ┃
+  // ┆ |   ┃ Я ⊞ │ Ч × │ С ÷ │ М   │ И ฿ ┃ Т   │ Ь “ │ Б   │ Ю ” │ ,   ┃
   // ┆ \ ¦ ┃   \ │   * │   : │   / │   # ┃   ' │   | │   ~ │   & │ . ? ┃
   // ╰╌╌╌╌╌┸─────┴─────┴─────┴─────┴─────┸─────┴─────┴─────┴─────┴─────┚
 
@@ -85,9 +85,9 @@ xkb_keymap {
     key <AB04> {[ U043C           , U041C           , slash           , VoidSymbol      ]}; // м М /
     key <AB05> {[ U0438           , U0418           , numbersign      , U0E3F           ]}; // и И # ฿
     key <AB06> {[ U0442           , U0422           , apostrophe      , VoidSymbol      ]}; // т Т '
-    key <AB07> {[ U044C           , U042C           , bar             , brokenbar       ]}; // ь Ь | ¦
+    key <AB07> {[ U044C           , U042C           , bar             , U201C           ]}; // ь Ь | “
     key <AB08> {[ U0431           , U0411           , asciitilde      , VoidSymbol      ]}; // б Б ~
-    key <AB09> {[ U044E           , U042E           , ampersand       , VoidSymbol      ]}; // ю Ю &
+    key <AB09> {[ U044E           , U042E           , ampersand       , U201D           ]}; // ю Ю & ”
     key <AB10> {[ period          , comma           , question        , VoidSymbol      ]}; // . , ?
 
     // Pinky keys

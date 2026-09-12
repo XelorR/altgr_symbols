@@ -858,7 +858,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">M</text>
           <text x="38.0" y="43.4" class="level3">|</text>
-          <text x="38.0" y="20.6" class="level4" />
+          <text x="38.0" y="20.6" class="level4">“</text>
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -880,7 +880,7 @@
           <text x="12.8" y="43.4" class="level1">.</text>
           <text x="12.8" y="20.6" class="level2">&gt;</text>
           <text x="38.0" y="43.4" class="level3">&amp;</text>
-          <text x="38.0" y="20.6" class="level4" />
+          <text x="38.0" y="20.6" class="level4">”</text>
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>

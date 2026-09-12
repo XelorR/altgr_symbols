@@ -29,7 +29,7 @@ xkb_keymap {
   //       ┃ A ⌘ │ S ⌥ │ D ⌃ │ F ⇧ │ G ± ┃ H ← │ J ↓ │ K ↑ │ L → │ :   ┃ "*¨ ┆ |   ┆
   //       ┃   " │   ( │   - │   ) │   + ┃   % │   { │   ; │   } │ ; ! ┃ '*´ ┆ \ ¦ ┆
   // ╭╌╌╌╌╌╂─────┼─────┼─────┼─────┼─────╂─────┼─────┼─────┼─────┼─────╂╌╌╌╌╌┴╌╌╌╌╌╯
-  // ┆ |   ┃ Z ⊞ │ X × │ C ÷ │ V   │ B ฿ ┃ N   │ M   │ <   │ >   │ ?   ┃
+  // ┆ |   ┃ Z ⊞ │ X × │ C ÷ │ V   │ B ฿ ┃ N   │ M “ │ <   │ > ” │ ?   ┃
   // ┆ \ ¦ ┃   \ │   * │   : │   / │   # ┃   ' │   | │ , ~ │ . & │ / ? ┃
   // ╰╌╌╌╌╌┸─────┴─────┴─────┴─────┴─────┸─────┴─────┴─────┴─────┴─────┚
 
@@ -85,9 +85,9 @@ xkb_keymap {
     key <AB04> {[ v               , V               , slash           , VoidSymbol      ]}; // v V /
     key <AB05> {[ b               , B               , numbersign      , U0E3F           ]}; // b B # ฿
     key <AB06> {[ n               , N               , apostrophe      , VoidSymbol      ]}; // n N '
-    key <AB07> {[ m               , M               , bar             , brokenbar       ]}; // m M | ¦
+    key <AB07> {[ m               , M               , bar             , U201C           ]}; // m M | “
     key <AB08> {[ comma           , less            , asciitilde      , VoidSymbol      ]}; // , < ~
-    key <AB09> {[ period          , greater         , ampersand       , VoidSymbol      ]}; // . > &
+    key <AB09> {[ period          , greater         , ampersand       , U201D           ]}; // . > & ”
     key <AB10> {[ slash           , question        , question        , VoidSymbol      ]}; // / ? ?
 
     // Pinky keys

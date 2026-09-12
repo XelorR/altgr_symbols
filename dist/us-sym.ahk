@@ -392,11 +392,12 @@ SendKey(base, deadkeymap) {
  <^>!SC31::SendKey("U+0027", {}) ; '
 
  <^>!SC32::SendKey("U+007c", {}) ; |
-<^>!+SC32::SendKey("U+00a6", {}) ; ¦
+<^>!+SC32::SendKey("U+201c", {}) ; “
 
  <^>!SC33::SendKey("U+007e", {}) ; ~
 
  <^>!SC34::SendKey("U+0026", {}) ; &
+<^>!+SC34::SendKey("U+201d", {}) ; ”
 
  <^>!SC35::SendKey("U+003f", {}) ; ?
 
