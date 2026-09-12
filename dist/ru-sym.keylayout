@@ -34,13 +34,13 @@
   ┆ Ё*~ ┃ ! ‼ │ " ¥ │ # ∑ │ ; ₹ │ % ‰ ┃ : √ │ ? ✉ │ * ∞ │ ( „ │ ) “ ┃ _ – ┆ + ± ┆
   ┆  *` ┃ 1 “ │ 2 ” │ 3 № │ 4 ₽ │ 5 ˚ ┃ 6*^ │ 7 ⊞ │ 8 • │ 9 « │ 0 » ┃ - — ┆ = ≠ ┆
   ╰╌╌╌╌╌╂─────┼─────┼─────┼─────┼─────╂─────┼─────┼─────┼─────┼─────╂╌╌╌╌╌┼╌╌╌╌╌┤
-        ┃ Й § │ Ц « │ У ≈ │ К » │ Е ₽ ┃ Н / │ Г 7 │ Ш 8 │ Щ 9 │ З - ┃ Х ‹ ┆ Ъ › ┆
+        ┃ Й § │ Ц « │ У ≈ │ К » │ Е ₽ ┃ Н   │ Г ≤ │ Ш ≡ │ Щ ≥ │ З   ┃ Х ‹ ┆ Ъ › ┆
         ┃   @ │   < │   = │   > │   $ ┃   ^ │   [ │   _ │   ] │   ` ┃   “ ┆   ” ┆
         ┠─────┼─────┼─────┼─────┼─────╂─────┼─────┼─────┼─────┼─────╂╌╌╌╌╌┼╌╌╌╌╌┤
-        ┃ Ф ⌘ │ Ы ⌥ │ В ⌃ │ А ⇧ │ П ± ┃ Р * │ О 4 │ Л 5 │ Д 6 │ Ж + ┃ Э*¨ ┆ /   ┆
+        ┃ Ф ⌘ │ Ы ⌥ │ В ⌃ │ А ⇧ │ П ± ┃ Р ← │ О ↓ │ Л ↑ │ Д → │ Ж   ┃ Э*¨ ┆ /   ┆
         ┃   " │   ( │   - │   ) │   + ┃   % │   { │   ; │   } │   ! ┃  *´ ┆ \ ¦ ┆
   ╭╌╌╌╌╌╂─────┼─────┼─────┼─────┼─────╂─────┼─────┼─────┼─────┼─────╂╌╌╌╌╌┴╌╌╌╌╌╯
-  ┆ |   ┃ Я ← │ Ч ↓ │ С ↑ │ М → │ И ฿ ┃ Т 0 │ Ь 1 │ Б 2 │ Ю 3 │ , . ┃
+  ┆ |   ┃ Я   │ Ч × │ С ÷ │ М   │ И ฿ ┃ Т   │ Ь   │ Б   │ Ю   │ ,   ┃
   ┆ \ ¦ ┃   \ │   * │   : │   / │   # ┃   ' │   | │   ~ │   & │ . ? ┃
   ╰╌╌╌╌╌┸─────┴─────┴─────┴─────┴─────┸─────┴─────┴─────┴─────┴─────┚
   -->
@@ -595,11 +595,11 @@
       <key code="14"  output="≈" />
       <key code="15"  output="»" />
       <key code="17"  output="₽" />
-      <key code="16"  output="/" />
-      <key code="32"  action="ad07_7" />
-      <key code="34"  action="ad08_8" />
-      <key code="31"  action="ad09_9" />
-      <key code="35"  action="ad10_-" />
+      <key code="16"  output="&#x0010;" />
+      <key code="32"  output="≤" />
+      <key code="34"  output="≡" />
+      <key code="31"  output="≥" />
+      <key code="35"  output="&#x0010;" />
 
       <!-- Letters, second row -->
       <key code="0"   output="⌘" />
@@ -607,23 +607,23 @@
       <key code="2"   output="⌃" />
       <key code="3"   output="⇧" />
       <key code="5"   output="±" />
-      <key code="4"   output="*" />
-      <key code="38"  action="ac07_4" />
-      <key code="40"  action="ac08_5" />
-      <key code="37"  action="ac09_6" />
-      <key code="41"  action="ac10_+" />
+      <key code="4"   output="←" />
+      <key code="38"  output="↓" />
+      <key code="40"  output="↑" />
+      <key code="37"  output="→" />
+      <key code="41"  output="&#x0010;" />
 
       <!-- Letters, third row -->
-      <key code="6"   output="←" />
-      <key code="7"   output="↓" />
-      <key code="8"   output="↑" />
-      <key code="9"   output="→" />
+      <key code="6"   output="&#x0010;" />
+      <key code="7"   output="×" />
+      <key code="8"   output="÷" />
+      <key code="9"   output="&#x0010;" />
       <key code="11"  output="฿" />
-      <key code="45"  action="ab06_0" />
-      <key code="46"  action="ab07_1" />
-      <key code="43"  action="ab08_2" />
-      <key code="47"  action="ab09_3" />
-      <key code="44"  output="." />
+      <key code="45"  output="&#x0010;" />
+      <key code="46"  output="¦" />
+      <key code="43"  output="&#x0010;" />
+      <key code="47"  output="&#x0010;" />
+      <key code="44"  output="&#x0010;" />
 
       <!-- Pinky keys -->
       <key code="27"  output="–" />
@@ -818,18 +818,6 @@
       <when state="none"       output="Г" />
       <when state="acute"      output="Ѓ" />
     </action>
-    <action id="ad07_7">
-      <when state="none"       output="7" />
-      <when state="circumflex" output="⁷" />
-    </action>
-    <action id="ad08_8">
-      <when state="none"       output="8" />
-      <when state="circumflex" output="⁸" />
-    </action>
-    <action id="ad09_9">
-      <when state="none"       output="9" />
-      <when state="circumflex" output="⁹" />
-    </action>
     <action id="ad10_з">
       <when state="none"       output="з" />
       <when state="diaeresis"  output="ӟ" />
@@ -837,10 +825,6 @@
     <action id="ad10_З">
       <when state="none"       output="З" />
       <when state="diaeresis"  output="Ӟ" />
-    </action>
-    <action id="ad10_-">
-      <when state="none"       output="-" />
-      <when state="circumflex" output="⁻" />
     </action>
 
     <!-- Letters, second row -->
@@ -884,18 +868,6 @@
       <when state="none"       output="О" />
       <when state="diaeresis"  output="Ӧ" />
     </action>
-    <action id="ac07_4">
-      <when state="none"       output="4" />
-      <when state="circumflex" output="⁴" />
-    </action>
-    <action id="ac08_5">
-      <when state="none"       output="5" />
-      <when state="circumflex" output="⁵" />
-    </action>
-    <action id="ac09_6">
-      <when state="none"       output="6" />
-      <when state="circumflex" output="⁶" />
-    </action>
     <action id="ac10_ж">
       <when state="none"       output="ж" />
       <when state="diaeresis"  output="ӝ" />
@@ -903,10 +875,6 @@
     <action id="ac10_Ж">
       <when state="none"       output="Ж" />
       <when state="diaeresis"  output="Ӝ" />
-    </action>
-    <action id="ac10_+">
-      <when state="none"       output="+" />
-      <when state="circumflex" output="⁺" />
     </action>
 
     <!-- Letters, third row -->
@@ -927,22 +895,6 @@
       <when state="none"       output="И" />
       <when state="grave"      output="Ѝ" />
       <when state="diaeresis"  output="Ӥ" />
-    </action>
-    <action id="ab06_0">
-      <when state="none"       output="0" />
-      <when state="circumflex" output="⁰" />
-    </action>
-    <action id="ab07_1">
-      <when state="none"       output="1" />
-      <when state="circumflex" output="¹" />
-    </action>
-    <action id="ab08_2">
-      <when state="none"       output="2" />
-      <when state="circumflex" output="²" />
-    </action>
-    <action id="ab09_3">
-      <when state="none"       output="3" />
-      <when state="circumflex" output="³" />
     </action>
 
     <!-- Pinky keys -->

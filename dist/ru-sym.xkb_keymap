@@ -23,13 +23,13 @@ xkb_keymap {
   // ┆ Ё*~ ┃ ! ‼ │ " ¥ │ # ∑ │ ; ₹ │ % ‰ ┃ : √ │ ? ✉ │ * ∞ │ ( „ │ ) “ ┃ _ – ┆ + ± ┆
   // ┆  *` ┃ 1 “ │ 2 ” │ 3 № │ 4 ₽ │ 5 ˚ ┃ 6*^ │ 7 ⊞ │ 8 • │ 9 « │ 0 » ┃ - — ┆ = ≠ ┆
   // ╰╌╌╌╌╌╂─────┼─────┼─────┼─────┼─────╂─────┼─────┼─────┼─────┼─────╂╌╌╌╌╌┼╌╌╌╌╌┤
-  //       ┃ Й § │ Ц « │ У ≈ │ К » │ Е ₽ ┃ Н / │ Г 7 │ Ш 8 │ Щ 9 │ З - ┃ Х ‹ ┆ Ъ › ┆
+  //       ┃ Й § │ Ц « │ У ≈ │ К » │ Е ₽ ┃ Н   │ Г ≤ │ Ш ≡ │ Щ ≥ │ З   ┃ Х ‹ ┆ Ъ › ┆
   //       ┃   @ │   < │   = │   > │   $ ┃   ^ │   [ │   _ │   ] │   ` ┃   “ ┆   ” ┆
   //       ┠─────┼─────┼─────┼─────┼─────╂─────┼─────┼─────┼─────┼─────╂╌╌╌╌╌┼╌╌╌╌╌┤
-  //       ┃ Ф ⌘ │ Ы ⌥ │ В ⌃ │ А ⇧ │ П ± ┃ Р * │ О 4 │ Л 5 │ Д 6 │ Ж + ┃ Э*¨ ┆ /   ┆
+  //       ┃ Ф ⌘ │ Ы ⌥ │ В ⌃ │ А ⇧ │ П ± ┃ Р ← │ О ↓ │ Л ↑ │ Д → │ Ж   ┃ Э*¨ ┆ /   ┆
   //       ┃   " │   ( │   - │   ) │   + ┃   % │   { │   ; │   } │   ! ┃  *´ ┆ \ ¦ ┆
   // ╭╌╌╌╌╌╂─────┼─────┼─────┼─────┼─────╂─────┼─────┼─────┼─────┼─────╂╌╌╌╌╌┴╌╌╌╌╌╯
-  // ┆ |   ┃ Я ← │ Ч ↓ │ С ↑ │ М → │ И ฿ ┃ Т 0 │ Ь 1 │ Б 2 │ Ю 3 │ , . ┃
+  // ┆ |   ┃ Я   │ Ч × │ С ÷ │ М   │ И ฿ ┃ Т   │ Ь   │ Б   │ Ю   │ ,   ┃
   // ┆ \ ¦ ┃   \ │   * │   : │   / │   # ┃   ' │   | │   ~ │   & │ . ? ┃
   // ╰╌╌╌╌╌┸─────┴─────┴─────┴─────┴─────┸─────┴─────┴─────┴─────┴─────┚
 
@@ -60,11 +60,11 @@ xkb_keymap {
     key <AD03> {[ U0443           , U0423           , equal           , U2248           ]}; // у У = ≈
     key <AD04> {[ U043A           , U041A           , greater         , guillemotright  ]}; // к К > »
     key <AD05> {[ U0435           , U0415           , dollar          , U20BD           ]}; // е Е $ ₽
-    key <AD06> {[ U043D           , U041D           , asciicircum     , slash           ]}; // н Н ^ /
-    key <AD07> {[ U0433           , U0413           , bracketleft     , 7               ]}; // г Г [ 7
-    key <AD08> {[ U0448           , U0428           , underscore      , 8               ]}; // ш Ш _ 8
-    key <AD09> {[ U0449           , U0429           , bracketright    , 9               ]}; // щ Щ ] 9
-    key <AD10> {[ U0437           , U0417           , grave           , minus           ]}; // з З ` -
+    key <AD06> {[ U043D           , U041D           , asciicircum     , VoidSymbol      ]}; // н Н ^
+    key <AD07> {[ U0433           , U0413           , bracketleft     , lessthanequal   ]}; // г Г [ ≤
+    key <AD08> {[ U0448           , U0428           , underscore      , identical       ]}; // ш Ш _ ≡
+    key <AD09> {[ U0449           , U0429           , bracketright    , greaterthanequal]}; // щ Щ ] ≥
+    key <AD10> {[ U0437           , U0417           , grave           , VoidSymbol      ]}; // з З `
 
     // Letters, second row
     key <AC01> {[ U0444           , U0424           , quotedbl        , U2318           ]}; // ф Ф " ⌘
@@ -72,23 +72,23 @@ xkb_keymap {
     key <AC03> {[ U0432           , U0412           , minus           , U2303           ]}; // в В - ⌃
     key <AC04> {[ U0430           , U0410           , parenright      , U21E7           ]}; // а А ) ⇧
     key <AC05> {[ U043F           , U041F           , plus            , plusminus       ]}; // п П + ±
-    key <AC06> {[ U0440           , U0420           , percent         , asterisk        ]}; // р Р % *
-    key <AC07> {[ U043E           , U041E           , braceleft       , 4               ]}; // о О { 4
-    key <AC08> {[ U043B           , U041B           , semicolon       , 5               ]}; // л Л ; 5
-    key <AC09> {[ U0434           , U0414           , braceright      , 6               ]}; // д Д } 6
-    key <AC10> {[ U0436           , U0416           , exclam          , plus            ]}; // ж Ж ! +
+    key <AC06> {[ U0440           , U0420           , percent         , leftarrow       ]}; // р Р % ←
+    key <AC07> {[ U043E           , U041E           , braceleft       , downarrow       ]}; // о О { ↓
+    key <AC08> {[ U043B           , U041B           , semicolon       , uparrow         ]}; // л Л ; ↑
+    key <AC09> {[ U0434           , U0414           , braceright      , rightarrow      ]}; // д Д } →
+    key <AC10> {[ U0436           , U0416           , exclam          , VoidSymbol      ]}; // ж Ж !
 
     // Letters, third row
-    key <AB01> {[ U044F           , U042F           , backslash       , leftarrow       ]}; // я Я \ ←
-    key <AB02> {[ U0447           , U0427           , asterisk        , downarrow       ]}; // ч Ч * ↓
-    key <AB03> {[ U0441           , U0421           , colon           , uparrow         ]}; // с С : ↑
-    key <AB04> {[ U043C           , U041C           , slash           , rightarrow      ]}; // м М / →
+    key <AB01> {[ U044F           , U042F           , backslash       , VoidSymbol      ]}; // я Я \ 
+    key <AB02> {[ U0447           , U0427           , asterisk        , multiply        ]}; // ч Ч * ×
+    key <AB03> {[ U0441           , U0421           , colon           , division        ]}; // с С : ÷
+    key <AB04> {[ U043C           , U041C           , slash           , VoidSymbol      ]}; // м М /
     key <AB05> {[ U0438           , U0418           , numbersign      , U0E3F           ]}; // и И # ฿
-    key <AB06> {[ U0442           , U0422           , apostrophe      , 0               ]}; // т Т ' 0
-    key <AB07> {[ U044C           , U042C           , bar             , 1               ]}; // ь Ь | 1
-    key <AB08> {[ U0431           , U0411           , asciitilde      , 2               ]}; // б Б ~ 2
-    key <AB09> {[ U044E           , U042E           , ampersand       , 3               ]}; // ю Ю & 3
-    key <AB10> {[ period          , comma           , question        , period          ]}; // . , ? .
+    key <AB06> {[ U0442           , U0422           , apostrophe      , VoidSymbol      ]}; // т Т '
+    key <AB07> {[ U044C           , U042C           , bar             , brokenbar       ]}; // ь Ь | ¦
+    key <AB08> {[ U0431           , U0411           , asciitilde      , VoidSymbol      ]}; // б Б ~
+    key <AB09> {[ U044E           , U042E           , ampersand       , VoidSymbol      ]}; // ю Ю &
+    key <AB10> {[ period          , comma           , question        , VoidSymbol      ]}; // . , ?
 
     // Pinky keys
     key <AE11> {[ minus           , underscore      , emdash          , endash          ]}; // - _ — –

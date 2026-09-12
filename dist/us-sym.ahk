@@ -330,19 +330,17 @@ SendKey(base, deadkeymap) {
 <^>!+SC14::SendKey("U+20bd", {}) ; ₽
 
  <^>!SC15::SendKey("U+005e", {}) ; ^
-<^>!+SC15::SendKey("U+002f", {}) ; /
 
  <^>!SC16::SendKey("U+005b", {}) ; [
-<^>!+SC16::SendKey("U+0037", {"*^": "U+2077"}) ; 7
+<^>!+SC16::SendKey("U+2264", {}) ; ≤
 
  <^>!SC17::SendKey("U+005f", {}) ; _
-<^>!+SC17::SendKey("U+0038", {"*^": "U+2078"}) ; 8
+<^>!+SC17::SendKey("U+2261", {}) ; ≡
 
  <^>!SC18::SendKey("U+005d", {}) ; ]
-<^>!+SC18::SendKey("U+0039", {"*^": "U+2079"}) ; 9
+<^>!+SC18::SendKey("U+2265", {}) ; ≥
 
  <^>!SC19::SendKey("U+0060", {}) ; `
-<^>!+SC19::SendKey("U+002d", {"*^": "U+207b"}) ; -
 
 ;  Letters, second row
 
@@ -362,51 +360,44 @@ SendKey(base, deadkeymap) {
 <^>!+SC22::SendKey("U+00b1", {}) ; ±
 
  <^>!SC23::SendKey("U+0025", {}) ; %
-<^>!+SC23::SendKey("U+002a", {}) ; *
+<^>!+SC23::SendKey("U+2190", {}) ; ←
 
  <^>!SC24::SendKey("U+007b", {}) ; {
-<^>!+SC24::SendKey("U+0034", {"*^": "U+2074"}) ; 4
+<^>!+SC24::SendKey("U+2193", {}) ; ↓
 
  <^>!SC25::SendKey("U+003b", {}) ; ;
-<^>!+SC25::SendKey("U+0035", {"*^": "U+2075"}) ; 5
+<^>!+SC25::SendKey("U+2191", {}) ; ↑
 
  <^>!SC26::SendKey("U+007d", {}) ; }
-<^>!+SC26::SendKey("U+0036", {"*^": "U+2076"}) ; 6
+<^>!+SC26::SendKey("U+2192", {}) ; →
 
  <^>!SC27::SendKey("U+0021", {}) ; !
-<^>!+SC27::SendKey("U+002b", {"*^": "U+207a"}) ; +
 
 ;  Letters, third row
 
  <^>!SC2c::SendKey("U+005c", {}) ; \
-<^>!+SC2c::SendKey("U+2190", {}) ; ←
 
  <^>!SC2d::SendKey("U+002a", {}) ; *
-<^>!+SC2d::SendKey("U+2193", {}) ; ↓
+<^>!+SC2d::SendKey("U+00d7", {}) ; ×
 
  <^>!SC2e::SendKey("U+003a", {}) ; :
-<^>!+SC2e::SendKey("U+2191", {}) ; ↑
+<^>!+SC2e::SendKey("U+00f7", {}) ; ÷
 
  <^>!SC2f::SendKey("U+002f", {}) ; /
-<^>!+SC2f::SendKey("U+2192", {}) ; →
 
  <^>!SC30::SendKey("U+0023", {}) ; #
 <^>!+SC30::SendKey("U+0e3f", {}) ; ฿
 
  <^>!SC31::SendKey("U+0027", {}) ; '
-<^>!+SC31::SendKey("U+0030", {"*^": "U+2070"}) ; 0
 
  <^>!SC32::SendKey("U+007c", {}) ; |
-<^>!+SC32::SendKey("U+0031", {"*^": "U+00b9"}) ; 1
+<^>!+SC32::SendKey("U+00a6", {}) ; ¦
 
  <^>!SC33::SendKey("U+007e", {}) ; ~
-<^>!+SC33::SendKey("U+0032", {"*^": "U+00b2"}) ; 2
 
  <^>!SC34::SendKey("U+0026", {}) ; &
-<^>!+SC34::SendKey("U+0033", {"*^": "U+00b3"}) ; 3
 
  <^>!SC35::SendKey("U+003f", {}) ; ?
-<^>!+SC35::SendKey("U+002e", {}) ; .
 
 ;  Pinky keys
 

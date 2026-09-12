@@ -34,13 +34,13 @@
   ┆ ~*~ ┃ ! ‼ │ @ ¥ │ # ∑ │ $ ₹ │ % ‰ ┃ ^ √ │ & ✉ │ * ∞ │ ( „ │ ) “ ┃ _ – ┆ + ± ┆
   ┆ `*` ┃ 1 “ │ 2 ” │ 3 № │ 4 ₽ │ 5 ˚ ┃ 6*^ │ 7 ⊞ │ 8 • │ 9 « │ 0 » ┃ - — ┆ = ≠ ┆
   ╰╌╌╌╌╌╂─────┼─────┼─────┼─────┼─────╂─────┼─────┼─────┼─────┼─────╂╌╌╌╌╌┼╌╌╌╌╌┤
-        ┃ Q § │ W « │ E ≈ │ R » │ T ₽ ┃ Y / │ U 7 │ I 8 │ O 9 │ P - ┃ { ‹ ┆ } › ┆
+        ┃ Q § │ W « │ E ≈ │ R » │ T ₽ ┃ Y   │ U ≤ │ I ≡ │ O ≥ │ P   ┃ { ‹ ┆ } › ┆
         ┃   @ │   < │   = │   > │   $ ┃   ^ │   [ │   _ │   ] │   ` ┃ [ “ ┆ ] ” ┆
         ┠─────┼─────┼─────┼─────┼─────╂─────┼─────┼─────┼─────┼─────╂╌╌╌╌╌┼╌╌╌╌╌┤
-        ┃ A ⌘ │ S ⌥ │ D ⌃ │ F ⇧ │ G ± ┃ H * │ J 4 │ K 5 │ L 6 │ : + ┃ "*¨ ┆ |   ┆
+        ┃ A ⌘ │ S ⌥ │ D ⌃ │ F ⇧ │ G ± ┃ H ← │ J ↓ │ K ↑ │ L → │ :   ┃ "*¨ ┆ |   ┆
         ┃   " │   ( │   - │   ) │   + ┃   % │   { │   ; │   } │ ; ! ┃ '*´ ┆ \ ¦ ┆
   ╭╌╌╌╌╌╂─────┼─────┼─────┼─────┼─────╂─────┼─────┼─────┼─────┼─────╂╌╌╌╌╌┴╌╌╌╌╌╯
-  ┆ |   ┃ Z ← │ X ↓ │ C ↑ │ V → │ B ฿ ┃ N 0 │ M 1 │ < 2 │ > 3 │ ? . ┃
+  ┆ |   ┃ Z   │ X × │ C ÷ │ V   │ B ฿ ┃ N   │ M   │ <   │ >   │ ?   ┃
   ┆ \ ¦ ┃   \ │   * │   : │   / │   # ┃   ' │   | │ , ~ │ . & │ / ? ┃
   ╰╌╌╌╌╌┸─────┴─────┴─────┴─────┴─────┸─────┴─────┴─────┴─────┴─────┚
   -->
@@ -595,11 +595,11 @@
       <key code="14"  output="≈" />
       <key code="15"  output="»" />
       <key code="17"  output="₽" />
-      <key code="16"  output="/" />
-      <key code="32"  action="ad07_7" />
-      <key code="34"  action="ad08_8" />
-      <key code="31"  action="ad09_9" />
-      <key code="35"  action="ad10_-" />
+      <key code="16"  output="&#x0010;" />
+      <key code="32"  output="≤" />
+      <key code="34"  output="≡" />
+      <key code="31"  output="≥" />
+      <key code="35"  output="&#x0010;" />
 
       <!-- Letters, second row -->
       <key code="0"   output="⌘" />
@@ -607,23 +607,23 @@
       <key code="2"   output="⌃" />
       <key code="3"   output="⇧" />
       <key code="5"   output="±" />
-      <key code="4"   output="*" />
-      <key code="38"  action="ac07_4" />
-      <key code="40"  action="ac08_5" />
-      <key code="37"  action="ac09_6" />
-      <key code="41"  action="ac10_+" />
+      <key code="4"   output="←" />
+      <key code="38"  output="↓" />
+      <key code="40"  output="↑" />
+      <key code="37"  output="→" />
+      <key code="41"  output="&#x0010;" />
 
       <!-- Letters, third row -->
-      <key code="6"   output="←" />
-      <key code="7"   output="↓" />
-      <key code="8"   output="↑" />
-      <key code="9"   output="→" />
+      <key code="6"   output="&#x0010;" />
+      <key code="7"   output="×" />
+      <key code="8"   output="÷" />
+      <key code="9"   output="&#x0010;" />
       <key code="11"  output="฿" />
-      <key code="45"  action="ab06_0" />
-      <key code="46"  action="ab07_1" />
-      <key code="43"  action="ab08_2" />
-      <key code="47"  action="ab09_3" />
-      <key code="44"  output="." />
+      <key code="45"  output="&#x0010;" />
+      <key code="46"  output="¦" />
+      <key code="43"  output="&#x0010;" />
+      <key code="47"  output="&#x0010;" />
+      <key code="44"  output="&#x0010;" />
 
       <!-- Pinky keys -->
       <key code="27"  output="–" />
@@ -858,10 +858,6 @@
       <when state="tilde"      output="Ũ" />
       <when state="diaeresis"  output="Ü" />
     </action>
-    <action id="ad07_7">
-      <when state="none"       output="7" />
-      <when state="circumflex" output="⁷" />
-    </action>
     <action id="ad08_i">
       <when state="none"       output="i" />
       <when state="grave"      output="ì" />
@@ -877,10 +873,6 @@
       <when state="circumflex" output="Î" />
       <when state="tilde"      output="Ĩ" />
       <when state="diaeresis"  output="Ï" />
-    </action>
-    <action id="ad08_8">
-      <when state="none"       output="8" />
-      <when state="circumflex" output="⁸" />
     </action>
     <action id="ad09_o">
       <when state="none"       output="o" />
@@ -898,10 +890,6 @@
       <when state="tilde"      output="Õ" />
       <when state="diaeresis"  output="Ö" />
     </action>
-    <action id="ad09_9">
-      <when state="none"       output="9" />
-      <when state="circumflex" output="⁹" />
-    </action>
     <action id="ad10_p">
       <when state="none"       output="p" />
       <when state="acute"      output="ṕ" />
@@ -909,10 +897,6 @@
     <action id="ad10_P">
       <when state="none"       output="P" />
       <when state="acute"      output="Ṕ" />
-    </action>
-    <action id="ad10_-">
-      <when state="none"       output="-" />
-      <when state="circumflex" output="⁻" />
     </action>
 
     <!-- Letters, second row -->
@@ -986,10 +970,6 @@
       <when state="none"       output="J" />
       <when state="circumflex" output="Ĵ" />
     </action>
-    <action id="ac07_4">
-      <when state="none"       output="4" />
-      <when state="circumflex" output="⁴" />
-    </action>
     <action id="ac08_k">
       <when state="none"       output="k" />
       <when state="acute"      output="ḱ" />
@@ -998,10 +978,6 @@
       <when state="none"       output="K" />
       <when state="acute"      output="Ḱ" />
     </action>
-    <action id="ac08_5">
-      <when state="none"       output="5" />
-      <when state="circumflex" output="⁵" />
-    </action>
     <action id="ac09_l">
       <when state="none"       output="l" />
       <when state="acute"      output="ĺ" />
@@ -1009,14 +985,6 @@
     <action id="ac09_L">
       <when state="none"       output="L" />
       <when state="acute"      output="Ĺ" />
-    </action>
-    <action id="ac09_6">
-      <when state="none"       output="6" />
-      <when state="circumflex" output="⁶" />
-    </action>
-    <action id="ac10_+">
-      <when state="none"       output="+" />
-      <when state="circumflex" output="⁺" />
     </action>
 
     <!-- Letters, third row -->
@@ -1068,10 +1036,6 @@
       <when state="acute"      output="Ń" />
       <when state="tilde"      output="Ñ" />
     </action>
-    <action id="ab06_0">
-      <when state="none"       output="0" />
-      <when state="circumflex" output="⁰" />
-    </action>
     <action id="ab07_m">
       <when state="none"       output="m" />
       <when state="acute"      output="ḿ" />
@@ -1080,25 +1044,13 @@
       <when state="none"       output="M" />
       <when state="acute"      output="Ḿ" />
     </action>
-    <action id="ab07_1">
-      <when state="none"       output="1" />
-      <when state="circumflex" output="¹" />
-    </action>
     <action id="ab08_x003c">
       <when state="none"       output="&#x003c;" />
       <when state="tilde"      output="≲" />
     </action>
-    <action id="ab08_2">
-      <when state="none"       output="2" />
-      <when state="circumflex" output="²" />
-    </action>
     <action id="ab09_x003e">
       <when state="none"       output="&#x003e;" />
       <when state="tilde"      output="≳" />
-    </action>
-    <action id="ab09_3">
-      <when state="none"       output="3" />
-      <when state="circumflex" output="³" />
     </action>
 
     <!-- Pinky keys -->

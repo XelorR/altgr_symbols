@@ -534,7 +534,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">Н</text>
           <text x="38.0" y="43.4" class="level3">^</text>
-          <text x="38.0" y="20.6" class="level4">/</text>
+          <text x="38.0" y="20.6" class="level4" />
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -545,7 +545,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">Г</text>
           <text x="38.0" y="43.4" class="level3">[</text>
-          <text x="38.0" y="20.6" class="level4">7</text>
+          <text x="38.0" y="20.6" class="level4">≤</text>
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -556,7 +556,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">Ш</text>
           <text x="38.0" y="43.4" class="level3">_</text>
-          <text x="38.0" y="20.6" class="level4">8</text>
+          <text x="38.0" y="20.6" class="level4">≡</text>
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -567,7 +567,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">Щ</text>
           <text x="38.0" y="43.4" class="level3">]</text>
-          <text x="38.0" y="20.6" class="level4">9</text>
+          <text x="38.0" y="20.6" class="level4">≥</text>
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -578,7 +578,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">З</text>
           <text x="38.0" y="43.4" class="level3">`</text>
-          <text x="38.0" y="20.6" class="level4">-</text>
+          <text x="38.0" y="20.6" class="level4" />
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -691,7 +691,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">Р</text>
           <text x="38.0" y="43.4" class="level3">%</text>
-          <text x="38.0" y="20.6" class="level4">*</text>
+          <text x="38.0" y="20.6" class="level4">←</text>
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -702,7 +702,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">О</text>
           <text x="38.0" y="43.4" class="level3">{</text>
-          <text x="38.0" y="20.6" class="level4">4</text>
+          <text x="38.0" y="20.6" class="level4">↓</text>
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -713,7 +713,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">Л</text>
           <text x="38.0" y="43.4" class="level3">;</text>
-          <text x="38.0" y="20.6" class="level4">5</text>
+          <text x="38.0" y="20.6" class="level4">↑</text>
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -724,7 +724,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">Д</text>
           <text x="38.0" y="43.4" class="level3">}</text>
-          <text x="38.0" y="20.6" class="level4">6</text>
+          <text x="38.0" y="20.6" class="level4">→</text>
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -735,7 +735,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">Ж</text>
           <text x="38.0" y="43.4" class="level3">!</text>
-          <text x="38.0" y="20.6" class="level4">+</text>
+          <text x="38.0" y="20.6" class="level4" />
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -790,7 +790,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">Я</text>
           <text x="38.0" y="43.4" class="level3">\</text>
-          <text x="38.0" y="20.6" class="level4">←</text>
+          <text x="38.0" y="20.6" class="level4" />
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -801,7 +801,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">Ч</text>
           <text x="38.0" y="43.4" class="level3">*</text>
-          <text x="38.0" y="20.6" class="level4">↓</text>
+          <text x="38.0" y="20.6" class="level4">×</text>
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -812,7 +812,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">С</text>
           <text x="38.0" y="43.4" class="level3">:</text>
-          <text x="38.0" y="20.6" class="level4">↑</text>
+          <text x="38.0" y="20.6" class="level4">÷</text>
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -823,7 +823,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">М</text>
           <text x="38.0" y="43.4" class="level3">/</text>
-          <text x="38.0" y="20.6" class="level4">→</text>
+          <text x="38.0" y="20.6" class="level4" />
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -847,7 +847,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">Т</text>
           <text x="38.0" y="43.4" class="level3">'</text>
-          <text x="38.0" y="20.6" class="level4">0</text>
+          <text x="38.0" y="20.6" class="level4" />
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -858,7 +858,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">Ь</text>
           <text x="38.0" y="43.4" class="level3">|</text>
-          <text x="38.0" y="20.6" class="level4">1</text>
+          <text x="38.0" y="20.6" class="level4" />
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -869,7 +869,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">Б</text>
           <text x="38.0" y="43.4" class="level3">~</text>
-          <text x="38.0" y="20.6" class="level4">2</text>
+          <text x="38.0" y="20.6" class="level4" />
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -880,7 +880,7 @@
           <text x="12.8" y="43.4" class="level1" />
           <text x="12.8" y="20.6" class="level2">Ю</text>
           <text x="38.0" y="43.4" class="level3">&amp;</text>
-          <text x="38.0" y="20.6" class="level4">3</text>
+          <text x="38.0" y="20.6" class="level4" />
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
@@ -891,7 +891,7 @@
           <text x="12.8" y="43.4" class="level1">.</text>
           <text x="12.8" y="20.6" class="level2">,</text>
           <text x="38.0" y="43.4" class="level3">?</text>
-          <text x="38.0" y="20.6" class="level4">.</text>
+          <text x="38.0" y="20.6" class="level4" />
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
         </g>
