@@ -50,7 +50,7 @@
     "Quote": [ "э", "Э", "*´", "*¨" ],
     "Backquote": [ "ё", "Ё", "*`", "*~" ],
     "Backslash": [ "\\", "/", "¦" ],
-    "IntlBackslash": [ "\\", "|", "¦" ],
+    "IntlBackslash": [ ",", ";", ".", ":" ],
     "Space": [ " ", " ", " ", " " ]
   },
   "deadkeys": {
