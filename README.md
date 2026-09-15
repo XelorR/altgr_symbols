@@ -12,7 +12,7 @@ Standard US (qwerty) and RU (йцукен) layouts created via [Kalamine](https:
 
 ![](./dist/ru-sym.svg)
 
-## built layouts for Linux, Mac and Windows
+## Pre-built layouts for Linux, Mac and Windows
 
 - [dist folder](dist) — all OS sources
 - [installer](./install.sh) for mac and linux
