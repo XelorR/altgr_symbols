@@ -15,8 +15,10 @@ Standard US (qwerty) and RU (йцукен) layouts created via [Kalamine](https:
 ## built layouts for Linux, Mac and Windows
 
 - [dist folder](dist) — all OS sources
-- windows pre-compiled via `wkalemine` binary
+- [installer](./install.sh) for mac and linux
+- windows installers, pre-compiled via `wkalemine`
   - [us](./us-sym)
   - [ru](./ru-sym)
-  - [us and ru in single layout, switch via caps](./usru-sym) (source: [this file](./dist/usru-sym.klc))
+- windows unified us/ru layout with caps toggle and caps led indicator
+  - [us/ru caps](./usru-sym) (source: [this file](./dist/usru-sym.klc))
 
